@@ -1,0 +1,610 @@
+/*
+Template Name: Minfox - Multipurpose Landing Page Template
+Version: 1.0
+Author: zen2p
+Author URI: https://themeforest.net/user/zen2p
+Description: Landing Page Template
+*/
+
+/*-----------------------------------------------------------------*/
+/*                  NAVIGATION BAR                                 */
+/*-----------------------------------------------------------------*/
+
+
+.navbar-default .navbar-nav li a {
+    color: #eaeaea;
+}
+
+.navbar-default .navbar-nav li a.current {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-default .navbar-nav li a:focus {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-default .navbar-nav li:hover a {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.navbar-default.shrink {
+    background: #0E4688;
+}
+
+.navbar-toggle {
+    background-color: #1bbe9f;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #19ab8f;
+}
+
+/*-----------------------------------------------------------------*/
+/*                   SECTION                                   	   */
+/*-----------------------------------------------------------------*/
+
+.section-header h2 {
+    color: #1a1a1a;
+}
+
+.section-header span {
+    color: #8e8e8e;
+}
+
+section.gray {
+    background: #f7f7f7;
+}
+
+section.with-bg .section-header h2 {
+    color: #FFF;
+}
+
+section.with-bg .section-header span {
+    color: #FFF;
+}
+
+/*-----------------------------------------------------------------*/
+/*                 SECTION Minfox                                  */
+/*-----------------------------------------------------------------*/
+
+.minfox {
+    color: #FFF;
+}
+
+.cta h2 {
+    color: #FFF;
+}
+
+.overlay {
+    background: #10529F;
+}
+
+/*-----------------------------------------------------------------*/
+/*                   SECTION About                                 */
+/*-----------------------------------------------------------------*/
+
+.bg-about {
+    background: #FFF;
+}
+
+.section-minfox h2 {
+    color: #10529F;
+}
+
+.section-minfox p {
+    color: #10529F;
+}
+
+/*-----------------------------------------------------------------*/
+/*                 SECTION FEATURES                                */
+/*-----------------------------------------------------------------*/
+
+.features .item .icon-wrap .icon {
+    background: #ffffff;
+    box-shadow: 0 1px 30px rgba(7, 76, 213, 0.05);
+}
+
+.features .item .icon-wrap .icon i {
+    color: #10529F;
+}
+
+.features .item .description h3 {
+    color: #10529F;
+}
+
+.features .item .description p {
+    color: #464646;
+}
+
+/*-----------------------------------------------------------------*/
+/*                SECTION TEAM                                     */
+/*-----------------------------------------------------------------*/
+
+.team-bg {
+    background-color: #FFF;
+}
+
+.team-bg:hover {
+    box-shadow: 0 5px 30px rgba(7, 76, 213, 0.08);
+}
+
+.title {
+    color: #1a1a1a;
+}
+
+.position {
+    color: #10529F;
+}
+
+.social-team a {
+    color: #eee;
+}
+.social-team a i {
+    color: #c6c6c6;
+}
+.social-team a i:hover {
+    color: #10529F;
+}
+
+/*-----------------------------------------------------------------*/
+/*                 SECTION PRICING                                 */
+/*-----------------------------------------------------------------*/
+.pricing .price-table {
+    background: #FFF;
+    box-shadow: 0 5px 30px rgba(7, 76, 213, 0.08);
+}
+
+.pricing .price-table .header {
+    border-bottom: 1px solid #eee;
+}
+
+.pricing .price-table .header h2 {
+    color: #10529F;
+}
+
+.pricing .price-table .header h1 {
+    color: #10529F;
+}
+
+.price-cent {
+    color: #10529F;
+}
+
+.btn-price {
+    background: #10529F;
+    color: #FFF;
+}
+
+.btn-price:hover {
+    background: #f83c7b;
+    color: #FFF;
+}
+
+.pricing .price-table.recommend {
+    background: #ffffff;
+    color: #10529F;
+}
+
+.pricing .price-table.recommend .header i {
+    color: #ed5f6b;
+}
+
+.pricing .price-table.recommend .header h2 {
+    color: #10529F;
+}
+
+.pricing .price-table.recommend .header h1 {
+    color: #10529F;
+}
+
+/*-----------------------------------------------------------------*/
+/*                SECTION TESTIMONIALS                             */
+/*-----------------------------------------------------------------*/
+
+.testimonials p {
+    color: #1a1a1a;
+}
+
+.testimonials .user .info h3 {
+    color: #10529F;
+}
+
+.testimonials .user .info span {
+    color: #9b9b9b;
+}
+
+/*-----------------------------------------------------------------*/
+/*                  SECTION BLOG                                   */
+/*-----------------------------------------------------------------*/
+
+.blog h2 a {
+    color: #1a1a1a;
+}
+
+.blog h2 a:hover {
+    color: #10529F;
+}
+
+.blog p {
+    color: #c5c5c5;
+}
+
+.btn-blog {
+    color: #10529F;
+}
+
+.btn-blog:hover {
+    color: #10529F;
+}
+
+/*-----------------------------------------------------------------*/
+/*                  SECTION CTA                                    */
+/*-----------------------------------------------------------------*/
+
+.cta-footer {
+    color: #FFF;
+    background-color: #10529F;
+}
+
+.cta-footer p {
+    color: #FFF;
+}
+
+.btn-cta {
+    color: #ffffff;
+    border: 2px solid #FFF;
+}
+
+.btn-cta:hover {
+    background: #FFF;
+    border: 2px solid #FFF;
+    color: #10529F;
+}
+
+.btn-cta:focus {
+    background-color: #FFF;
+    color: #10529F;
+    border: 2px solid #FFF;
+}
+
+.cta-footer .overlay {
+    background: rgba(41,88,112,0.7);
+}
+
+/*-----------------------------------------------------------------*/
+/*                 SECTION CONTACT                                 */
+/*-----------------------------------------------------------------*/
+
+.btn-contact {
+    background: #10529F;
+    color: #FFF;
+}
+
+.btn-contact:hover {
+    background: #f83c7b;
+    color: #FFF;
+    box-shadow: 0 5px 30px rgba(7, 76, 213, 0.08);
+}
+
+/* === Form Control === */
+.form-control {
+    color: #555;
+}
+
+.form-control:focus {
+    border-color: #C7C7C7;
+}
+
+.form-group {
+    border: 1px solid #eee;
+}
+
+/*-----------------------------------------------------------------*/
+/*                 SECTION SUBSRIBE                                */
+/*-----------------------------------------------------------------*/
+
+.subscribe {
+    background-color: #10529F;
+    color: #FFF;
+}
+
+.subscribe p {
+    color: #FFF;
+}
+
+.btn-sub {
+    background-color: #f83c7b;
+    color: #FFF;
+}
+
+.btn-sub:hover {
+    background-color: #FFF;
+    color: #10529F;
+}
+
+/* === Form Control === */
+.form-sub {
+    color: #555;
+}
+
+.form-sub:focus {
+    border-color: #C7C7C7;
+}
+
+.form-group {
+    border: 1px solid #eee;
+}
+
+/*-----------------------------------------------------------------*/
+/*                FOOTER                                           */
+/*-----------------------------------------------------------------*/
+
+.footer {
+    background: #FFF;
+    color: #1a1a1a;
+}
+
+.footer p {
+    color: #868686;
+}
+
+.footer .blog .title h4 a {
+    color: #868686;
+}
+
+.footer .blog .title h4 a:hover {
+    color: #10529F;
+}
+
+.footer .blog .title span {
+    color: #bebebe;
+}
+
+.footer .contact ul li {
+    color: #868686;
+}
+
+.footer .links ul li a {
+    color: #868686;
+}
+
+.footer .links ul li a:hover {
+    color: #10529F;
+}
+
+.footer .links ul li:before {
+    color: #10529F;
+}
+
+.footer .copyright {
+    border-top: solid 1px #eee;
+}
+
+.footer .copyright span {
+    color: #868686;
+}
+
+.footer .copyright .footer-menu li a {
+    color: #868686;
+}
+
+.footer .copyright .footer-menu li a:hover {
+    color: #10529F;
+}
+
+/* === Social Icons === */
+
+.social-icons li a i {
+    color: #c6c6c6;
+}
+
+.social-icons li a i:hover {
+    color: #10529F;
+}
+
+/*-----------------------------------------------------------------*/
+/*                   ELEMENTS                                      */
+/*-----------------------------------------------------------------*/
+
+.btn {
+    color: #23475B;
+}
+
+.btn-default {
+    color: #ffffff;
+    border: 2px solid #FFF;
+}
+
+.btn-default:hover {
+    background: #FFF;
+    border: 2px solid #FFF;
+    color: #10529F;
+}
+
+.btn-default:focus {
+    background-color: #FFF;
+    color: #10529F;
+    border: 2px solid #FFF;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    border: 2px solid #FFF;
+}
+
+.btn-secondary:hover {
+    background: #FFF;
+    border: 2px solid #FFF;
+    color: #10529F;
+}
+
+.btn-secondary:focus {
+    color: #FFF;
+}
+
+/* === Slick Slide === */
+
+.slick-dots li.slick-active button:before {
+    color: #FFF;
+}
+
+.slick-dots li button:hover:before,.slick-dots li button:focus:before {
+    color: #FFF;
+}
+
+.slick-prev,.slick-next {
+    background: #eee;
+}
+
+.slick-prev:hover,.slick-next:hover {
+    background: #10529F;
+}
+
+.slick-prev:focus,.slick-next:focus {
+    background: #10529F;
+}
+
+.slick-prev:before,.slick-next:before {
+    color: #FFF;
+}
+
+/*-----------------------------------------------------------------*/
+/*                   MODAL POPUP STYLES                            */
+/*-----------------------------------------------------------------*/
+
+.modal-title {
+    color: #10529F;
+}
+
+.modal-title .icon {
+    color: #10529F;
+    background-color: #FFF;
+    box-shadow: 0 1px 30px rgba(7, 76, 213, 0.05);
+}
+
+.close:hover {
+    color: #10529F;
+}
+
+
+/*-----------------------------------------------------------------*/
+/*                   Responsive                                    */
+/*-----------------------------------------------------------------*/
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    /*menu*/
+    .navbar-toggle {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #10529F;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-nav li a {
+        color: #FFF;
+        background-color: #10529F;
+    }
+}
+
+/* xs */
+@media (max-width: 767px) {
+    /*menu*/
+    .navbar-toggle {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #10529F;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-nav li a {
+        color: #FFF;
+        background-color: #10529F;
+    }
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+    /*menu*/
+    .navbar-toggle {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #10529F;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-nav li a {
+        color: #FFF;
+        background-color: #10529F;
+    }
+}
+
+/* XS Portrait */
+@media (max-width: 425px) {
+    /*menu*/
+    .navbar-toggle {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #10529F;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-nav li a {
+        color: #FFF;
+        background-color: #10529F;
+    }
+}
+
+/* XS Portrait */
+@media (max-width: 375px) {
+    /*menu*/
+    .navbar-toggle {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #10529F;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-nav li a {
+        color: #FFF;
+        background-color: #10529F;
+    }
+}
+
+/* XS Portrait */
+@media (max-width: 320px) {
+    /*menu*/
+    .navbar-toggle {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #10529F;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-nav li a {
+        color: #FFF;
+        background-color: #10529F;
+    }
+}

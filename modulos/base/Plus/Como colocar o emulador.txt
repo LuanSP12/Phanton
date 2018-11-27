@@ -1,0 +1,1 @@
+Basta enviar seu emulador com o nome Plus.zip tem que ser config.ini se não for configure no arquivo mo-emu.php
